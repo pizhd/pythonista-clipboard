@@ -1,0 +1,176 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{6, 34}, {200, 32}}",
+            "class" : "Button",
+            "attributes" : {
+              "flex" : "WHR",
+              "action" : "winTOios",
+              "frame" : "{{224, 34}, {80, 32}}",
+              "title" : "winTOios",
+              "uuid" : "81D8ACBF-0AC8-48A5-9233-2098A55738E5",
+              "class" : "Button",
+              "font_bold" : false,
+              "background_color" : "RGBA(0.862745,0.862745,0.862745,1.000000)",
+              "name" : "synctoios",
+              "font_size" : 15
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{322, 34}, {200, 32}}",
+            "class" : "Button",
+            "attributes" : {
+              "flex" : "WHL",
+              "action" : "iosTOwin",
+              "frame" : "{{224, 34}, {80, 32}}",
+              "title" : "iosTOwin",
+              "uuid" : "4BAE97B1-3A9D-4AD7-95E7-8FD370FA90AA",
+              "class" : "Button",
+              "background_color" : "RGBA(0.862745,0.862745,0.862745,1.000000)",
+              "name" : "synctowindows",
+              "font_size" : 15
+            },
+            "selected" : true
+          }
+        ],
+        "frame" : "{{6, 6}, {528, 100}}",
+        "class" : "View",
+        "attributes" : {
+          "flex" : "W",
+          "frame" : "{{220, 220}, {100, 100}}",
+          "background_color" : "RGBA(0.862745,0.862745,0.862745,1.000000)",
+          "class" : "View",
+          "name" : "FunSelectView",
+          "uuid" : "794CB663-1884-4E1D-903B-6EE3230FD19A"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+          {
+            "nodes" : [
+              {
+                "nodes" : [
+
+                ],
+                "frame" : "{{6, 6}, {504, 216}}",
+                "class" : "Label",
+                "attributes" : {
+                  "name" : "textcopy",
+                  "frame" : "{{183, 98}, {150, 32}}",
+                  "uuid" : "EF3DC75F-0EE4-4176-A1C7-1163E5DB576F",
+                  "class" : "Label",
+                  "alignment" : "left",
+                  "text" : "",
+                  "font_size" : 18,
+                  "font_name" : "<System>"
+                },
+                "selected" : false
+              },
+              {
+                "nodes" : [
+
+                ],
+                "frame" : "{{6, 6}, {504, 316}}",
+                "class" : "ImageView",
+                "attributes" : {
+                  "flex" : "WH",
+                  "frame" : "{{208, 64}, {100, 100}}",
+                  "class" : "ImageView",
+                  "name" : "imagecopy",
+                  "uuid" : "88867708-8324-400B-B2A0-B45F973AAFA6"
+                },
+                "selected" : false
+              }
+            ],
+            "frame" : "{{6, 6}, {516, 328}}",
+            "class" : "View",
+            "attributes" : {
+              "flex" : "WH",
+              "frame" : "{{214, 70}, {100, 100}}",
+              "alpha" : 0,
+              "class" : "View",
+              "name" : "dragview",
+              "uuid" : "68271DBE-6534-4310-9B76-DD0B6250869C"
+            },
+            "selected" : true
+          }
+        ],
+        "frame" : "{{6, 154}, {528, 340}}",
+        "class" : "View",
+        "attributes" : {
+          "flex" : "WB",
+          "frame" : "{{220, 220}, {100, 100}}",
+          "background_color" : "RGBA(0.862745,0.862745,0.862745,1.000000)",
+          "class" : "View",
+          "name" : "dropdragview",
+          "uuid" : "F3D0A169-36CB-4B4C-8248-55DAAA3BD44B"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 114}, {528, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "5437D141-6016-4614-A0DB-E8AFD88C7ECF",
+          "font_size" : 18,
+          "corner_radius" : 0,
+          "background_color" : "RGBA(0.862745,0.862745,0.862745,1.000000)",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "border_width" : 0,
+          "alignment" : "center",
+          "text" : "信息显示栏",
+          "font_name" : "<System>",
+          "class" : "Label",
+          "name" : "msglabel",
+          "flex" : "W"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 502}, {528, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "W",
+          "action" : "copyTOclipboard",
+          "alpha" : 1,
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "copyTOclipboard",
+          "uuid" : "3EFDD829-75C2-4E8D-B4D9-4C250CBFFA16",
+          "class" : "Button",
+          "background_color" : "RGBA(0.862745,0.862745,0.862745,1.000000)",
+          "name" : "copyToClipboard",
+          "font_size" : 15
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {540, 540}}",
+    "class" : "View",
+    "attributes" : {
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
